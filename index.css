@@ -1,0 +1,50 @@
+.imc-green-js {
+  background-color: green;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.imc-yellow-js {
+  background-color: rgb(231, 249, 231);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.imc-red-js {
+  background-color: rgb(252, 244, 244);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.container {
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+}
+
+.header-Title {
+  text-align: center;
+  background-color: rgb(241, 237, 237);
+}
+
+.row {
+  text-align: center;
+}
+
+.col-1 {
+  text-align: left;
+}
+
+.col-2 {
+  text-align: right;
+}
+.weight-input-js {
+  padding: 2px;
+  align-items: left;
+}
+.height-input-js {
+  padding: 2px;
+  align-items: right;
+}

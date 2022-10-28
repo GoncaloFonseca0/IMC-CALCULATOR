@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="imc.js" defer></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+
+  <body class="container">
+    <header class="header">
+      <h1 class="header-Title">My BMI Calculator</h1>
+    </header>
+
+    <form id="myForm"></form>
+    <div class="row">
+      <div class="col-1">
+        <label>weight:</label>
+        <input class="weight-input-js" />
+      </div>
+      <div class="col-2">
+        <label>height:</label>
+        <input class="height-input-js" />
+      </div>
+      <div class="calculator">
+        <button id="btn" onclick="calculateImc(event)">Calculate</button>
+        <div id="result"></div>
+      </div>
+      <div class="result-Imc"></div>
+    </div>
+  </body>
+</html>
